@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Spinnaker', sans-serif;   
+
+}
+
+
+#main{
+    background-image: url("https://www.hotelscombined.com.sg/rimg/dimg/8b/d2/7b49300c-city-26624-17eb1ccbba4.jpg?width=1366&height=768&xhint=1633&yhint=987&crop=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 200px;
+    color: white;
+    text-shadow: 0 0 2px black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    background: #457b9d;
+    padding: 5px 10px;
+}
+
+h2{
+    background: #1d3557;
+    padding: 5px 10px;
+}
+
+.title-activities{
+    margin-top: 0;
+    margin-bottom: 3px;
+    text-align: center;
+    color: #1d3557;
+    font-size: larger;
+}
+
+.picture-activities{
+    width: 200px;
+    border-radius: 50%;
+    border: 6px solid #90e0ef;
+    border-bottom: none;
+}
+
+
+
+
+h3{
+    width: 250px;
+}
+
+.activities{
+    color: #1d3557;
+    text-align: start;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first-activities{
+    margin-top: 50px;
+}
+
+.second-activities{
+    margin-top: 60px;
+}
+
+.tour-guide-pic{
+    width: 150px;
+    background-color: #90e0ef;
+    
+
+}
+
+.card{
+    padding: 20px;
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    color: #2b2839;
+    background:#bde0fe;
+    border-bottom:8px solid #cdb4db;
+    box-shadow: 10px 10px #ffc8dd;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+    
+}
+
+.main-container{
+    background: linear-gradient(#7EE8FA,#EEC0C6);
+    margin-bottom: 0;
+}
